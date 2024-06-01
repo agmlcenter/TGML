@@ -13,7 +13,7 @@ from torch_geometric.loader import TemporalDataLoader
 
 # local imports
 from tgb.nodeproppred.dataset_pyg import PyGNodePropPredDataset
-from modules.heuristics import CumulativeMovingAverage
+from heuristics import CumulativeMovingAverage
 from tgb.nodeproppred.evaluate import Evaluator
 
 

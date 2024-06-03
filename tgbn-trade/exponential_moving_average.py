@@ -11,18 +11,14 @@ from tgb.nodeproppred.dataset_pyg import PyGNodePropPredDataset # type: ignore
 from heuristics import ExponentialMovingAverage
 from tgb.nodeproppred.evaluate import Evaluator # type: ignore
 
-device = 'cpu'
-
-window = 7
-name = 'tgbn-trade'
-dataset = PyGNodePropPredDataset(name=name, root='datasets')
+tgbn_dataset_name = 'tgbn-trade'
+dataset = PyGNodePropPredDataset(name=tgbn_dataset_name, root='datasets')
 num_classes = dataset.num_classes
 data = dataset.get_TemporalData()
-data = data.to(device)
 
 eval_metric = dataset.eval_metric
 forecaster = ExponentialMovingAverage(num_classes, alpha=0.6)
-evaluator = Evaluator(name=name)
+evaluator = Evaluator(name=tgbn_dataset_name)
 
 
 # Ensure to only sample actual destination nodes as negatives.

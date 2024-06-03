@@ -3,19 +3,13 @@ implement exponential moving average for the node prop pred task
 """
 
 import os
-dir_name = os.path.dirname(os.path.realpath(__file__))
-three_folders_back = os.path.normpath(os.path.join(dir_name, os.pardir, os.pardir, os.pardir))
 import sys
-sys.path.append(three_folders_back)
 import timeit
 import numpy as np
 from torch_geometric.loader import TemporalDataLoader
-
-# local imports
 from tgb.nodeproppred.dataset_pyg import PyGNodePropPredDataset
 from heuristics import ExponentialMovingAverage
 from tgb.nodeproppred.evaluate import Evaluator
-
 
 device = 'cpu'
 

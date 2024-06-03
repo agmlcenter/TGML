@@ -1,0 +1,5 @@
+# Python cache files
+__pycache__/
+
+# Other files or folders you want to ignore
+#...

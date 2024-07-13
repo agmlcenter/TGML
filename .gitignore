@@ -1,3 +1,12 @@
 /tgb_env
 /.vscode
 /TGB_main
+/data
+/uci_ave_degree_per_ts.png
+/uci_edges_per_ts.png
+/uci_nodes_per_ts.png
+/uci_connected_components_per_ts.png
+/uci_node_and_edges_per_ts.png
+/uci_degree_density.png
+/uci_TEA.pdf
+/uci_TET.pdf

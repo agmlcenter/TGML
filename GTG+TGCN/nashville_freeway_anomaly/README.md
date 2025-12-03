@@ -19,14 +19,15 @@ GTG+TGCN/nashville_freeway_anomaly/
   - ft_aed_minimal.py        Main training + evaluation script (prints JSON results)
   - requirements.txt         Python dependencies
   - run_examples.sh          Example commands to reproduce results
-  - .gitignore               Ignores venv, data, outputs, caches
-  - data/                    Place dataset CSV here (NOT committed)
-  - outputs/                 Optional output directory (NOT committed)
+  - data/                    Place dataset CSV here
 
 
-DATASET
--------
-Put the CSV file here:
+DATASET (DOWNLOAD)
+------------------
+Download the dataset from:
+  https://acoursey3.github.io/ft-aed/
+
+Place the CSV file here:
   GTG+TGCN/nashville_freeway_anomaly/data/nashville_freeway_anomaly.csv
 
 Required columns:

@@ -1,0 +1,43 @@
+{
+  "counts": {
+    "rows_input_after_filtering": 11528,
+    "unique_events": 1441,
+    "rows_best_per_event_feature": 8496,
+    "rows_topk": 8496,
+    "pairs_total": 21471,
+    "unique_pair_patterns": 1068,
+    "shortlist_rows": 144
+  },
+  "inputs": {
+    "csv": "gtg_s77_rich_mapped_explanations_flat.csv",
+    "event_col": "nid",
+    "date_col": "event_date",
+    "prob_col": "prob",
+    "label_col": "label",
+    "topk": 8,
+    "lag_bins_days": [
+      0,
+      7,
+      30,
+      90,
+      180,
+      365,
+      730,
+      1095,
+      100000
+    ],
+    "positive_only": true,
+    "positive_threshold": 0.5,
+    "drop_missing_in_csv": true,
+    "min_support_frac": 0.03,
+    "min_support_count": 2,
+    "shortlist_min_events": 44
+  },
+  "outputs": {
+    "per_event_pairs.csv": "analysis_out_rich\\per_event_pairs.csv",
+    "interaction_pairs_ranked.csv": "analysis_out_rich\\interaction_pairs_ranked.csv",
+    "interaction_pairs_shortlist.csv": "analysis_out_rich\\interaction_pairs_shortlist.csv",
+    "feature_lag_stats.csv": "analysis_out_rich\\feature_lag_stats.csv",
+    "topk_rows_per_event.csv": "analysis_out_rich\\topk_rows_per_event.csv"
+  }
+}

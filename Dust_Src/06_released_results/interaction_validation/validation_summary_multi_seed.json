@@ -1,0 +1,87 @@
+{
+  "inputs": {
+    "seed_inputs": {
+      "s11": "gtg_s11_rich_mapped_explanations_flat.csv",
+      "s42": "gtg_s42_rich_mapped_explanations_flat.csv",
+      "s77": "gtg_s77_rich_mapped_explanations_flat.csv"
+    },
+    "reference_seed": "s77",
+    "topk": 8,
+    "lag_bins": [
+      0,
+      7,
+      30,
+      90,
+      180,
+      365,
+      730,
+      1095,
+      100000
+    ],
+    "positive_only": true,
+    "positive_threshold": 0.5,
+    "drop_missing_in_csv": true,
+    "stability_top_n": 50,
+    "perm_n": 500,
+    "perm_top_m": 30,
+    "holdout_frac": 0.3,
+    "holdout_top_n": 30,
+    "holdout_min_count": 5
+  },
+  "per_seed_summary": {
+    "s11": {
+      "counts": {
+        "rows_input_after_filtering": 11528,
+        "unique_events": 1441,
+        "rows_best_per_event_feature": 8516,
+        "rows_topk": 8516,
+        "pairs_total": 21515,
+        "unique_pair_patterns": 1123
+      }
+    },
+    "s42": {
+      "counts": {
+        "rows_input_after_filtering": 11528,
+        "unique_events": 1441,
+        "rows_best_per_event_feature": 9061,
+        "rows_topk": 9061,
+        "pairs_total": 24783,
+        "unique_pair_patterns": 1112
+      }
+    },
+    "s77": {
+      "counts": {
+        "rows_input_after_filtering": 11528,
+        "unique_events": 1441,
+        "rows_best_per_event_feature": 8496,
+        "rows_topk": 8496,
+        "pairs_total": 21471,
+        "unique_pair_patterns": 1068
+      }
+    }
+  },
+  "stability_summary": {
+    "n_seeds": 3,
+    "top_n": 50,
+    "mean_pairwise_jaccard": 0.06892936386023943,
+    "median_pairwise_jaccard": 0.07526881720430108,
+    "n_pairs_present_in_all_seeds": 1,
+    "n_pairs_present_in_at_least_2_seeds": 17
+  },
+  "permutation_summary": {
+    "reference_seed": "s77",
+    "tested_top_m_pairs": 30,
+    "n_permutations": 500,
+    "n_significant_p05": 26,
+    "n_significant_fdr10": 27
+  },
+  "holdout_summary": {
+    "split_date": "2012-06-10",
+    "n_events_discovery": 1022,
+    "n_events_holdout": 419,
+    "top_n_checked": 30,
+    "confirmed_count": 8,
+    "confirmed_fraction": 0.26666666666666666,
+    "min_holdout_count": 5
+  }
+}

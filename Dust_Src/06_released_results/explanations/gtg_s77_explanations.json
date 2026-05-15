@@ -1,0 +1,1102 @@
+[
+  {
+    "nid": 1626497,
+    "local_node": 97,
+    "time_index": 4066,
+    "date": "2011-06-19T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 2.798828125,
+        "lag_days": 1,
+        "lag_date": "2011-06-18T00:00:00.000000000",
+        "attention": 0.418212890625,
+        "contribution": 1.1708984375
+      },
+      {
+        "group": "med",
+        "feature": "AAT_anom",
+        "value": -1.6923828125,
+        "lag_days": 637,
+        "lag_date": "2009-09-20T00:00:00.000000000",
+        "attention": 0.117919921875,
+        "contribution": 0.1995849609375
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_nb_mean",
+        "value": 2.455078125,
+        "lag_days": 3,
+        "lag_date": "2011-06-16T00:00:00.000000000",
+        "attention": 0.060150146484375,
+        "contribution": 0.147705078125
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.568359375,
+        "lag_days": 930,
+        "lag_date": "2008-12-01T00:00:00.000000000",
+        "attention": 0.0340576171875,
+        "contribution": 0.08746337890625
+      },
+      {
+        "group": "slow",
+        "feature": "AAT",
+        "value": 1.30859375,
+        "lag_days": 1050,
+        "lag_date": "2008-08-03T00:00:00.000000000",
+        "attention": 0.050811767578125,
+        "contribution": 0.06646728515625
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7956179976463318
+  },
+  {
+    "nid": 1650057,
+    "local_node": 57,
+    "time_index": 4125,
+    "date": "2011-08-17T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.232421875,
+        "lag_days": 600,
+        "lag_date": "2009-12-25T00:00:00.000000000",
+        "attention": 0.43896484375,
+        "contribution": 0.97998046875
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": -2.376953125,
+        "lag_days": 240,
+        "lag_date": "2010-12-20T00:00:00.000000000",
+        "attention": 0.1851806640625,
+        "contribution": 0.440185546875
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 2.22265625,
+        "lag_days": 1,
+        "lag_date": "2011-08-16T00:00:00.000000000",
+        "attention": 0.148193359375,
+        "contribution": 0.329345703125
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_mean_7d",
+        "value": 2.421875,
+        "lag_days": 7,
+        "lag_date": "2011-08-10T00:00:00.000000000",
+        "attention": 0.11767578125,
+        "contribution": 0.284912109375
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 2.859375,
+        "lag_days": 11,
+        "lag_date": "2011-08-06T00:00:00.000000000",
+        "attention": 0.07293701171875,
+        "contribution": 0.20849609375
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.795158863067627
+  },
+  {
+    "nid": 1650076,
+    "local_node": 76,
+    "time_index": 4125,
+    "date": "2011-08-17T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.232421875,
+        "lag_days": 600,
+        "lag_date": "2009-12-25T00:00:00.000000000",
+        "attention": 0.43896484375,
+        "contribution": 0.97998046875
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": -2.376953125,
+        "lag_days": 240,
+        "lag_date": "2010-12-20T00:00:00.000000000",
+        "attention": 0.1851806640625,
+        "contribution": 0.440185546875
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 2.22265625,
+        "lag_days": 1,
+        "lag_date": "2011-08-16T00:00:00.000000000",
+        "attention": 0.1553955078125,
+        "contribution": 0.345458984375
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_mean_7d",
+        "value": 2.421875,
+        "lag_days": 7,
+        "lag_date": "2011-08-10T00:00:00.000000000",
+        "attention": 0.1234130859375,
+        "contribution": 0.298828125
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 2.859375,
+        "lag_days": 11,
+        "lag_date": "2011-08-06T00:00:00.000000000",
+        "attention": 0.07647705078125,
+        "contribution": 0.2186279296875
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7950781583786011
+  },
+  {
+    "nid": 1796064,
+    "local_node": 64,
+    "time_index": 4490,
+    "date": "2012-08-16T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed_mean_7d",
+        "value": 2.666015625,
+        "lag_days": 9,
+        "lag_date": "2012-08-07T00:00:00.000000000",
+        "attention": 0.13232421875,
+        "contribution": 0.352783203125
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 3.34765625,
+        "lag_days": 990,
+        "lag_date": "2009-11-30T00:00:00.000000000",
+        "attention": 0.08856201171875,
+        "contribution": 0.29638671875
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_mean_7d",
+        "value": 2.2734375,
+        "lag_days": 7,
+        "lag_date": "2012-08-09T00:00:00.000000000",
+        "attention": 0.10101318359375,
+        "contribution": 0.2296142578125
+      },
+      {
+        "group": "med",
+        "feature": "SPEI3_anom",
+        "value": -1.9931640625,
+        "lag_days": 630,
+        "lag_date": "2010-11-25T00:00:00.000000000",
+        "attention": 0.07537841796875,
+        "contribution": 0.1502685546875
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 3.404296875,
+        "lag_days": 13,
+        "lag_date": "2012-08-03T00:00:00.000000000",
+        "attention": 0.03924560546875,
+        "contribution": 0.133544921875
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7947719097137451
+  },
+  {
+    "nid": 1626516,
+    "local_node": 116,
+    "time_index": 4066,
+    "date": "2011-06-19T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 2.884765625,
+        "lag_days": 1,
+        "lag_date": "2011-06-18T00:00:00.000000000",
+        "attention": 0.439697265625,
+        "contribution": 1.2685546875
+      },
+      {
+        "group": "med",
+        "feature": "AAT_anom",
+        "value": -1.6923828125,
+        "lag_days": 637,
+        "lag_date": "2009-09-20T00:00:00.000000000",
+        "attention": 0.1134033203125,
+        "contribution": 0.19189453125
+      },
+      {
+        "group": "med",
+        "feature": "NDVI_anom",
+        "value": -2.91796875,
+        "lag_days": 294,
+        "lag_date": "2010-08-29T00:00:00.000000000",
+        "attention": 0.047088623046875,
+        "contribution": 0.137451171875
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_nb_mean",
+        "value": 2.48046875,
+        "lag_days": 3,
+        "lag_date": "2011-06-16T00:00:00.000000000",
+        "attention": 0.0548095703125,
+        "contribution": 0.135986328125
+      },
+      {
+        "group": "fast",
+        "feature": "erosion_index_2",
+        "value": 2.962890625,
+        "lag_days": 2,
+        "lag_date": "2011-06-17T00:00:00.000000000",
+        "attention": 0.032928466796875,
+        "contribution": 0.0975341796875
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7946088910102844
+  },
+  {
+    "nid": 1626535,
+    "local_node": 135,
+    "time_index": 4066,
+    "date": "2011-06-19T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 2.884765625,
+        "lag_days": 1,
+        "lag_date": "2011-06-18T00:00:00.000000000",
+        "attention": 0.451904296875,
+        "contribution": 1.3037109375
+      },
+      {
+        "group": "med",
+        "feature": "AAT_anom",
+        "value": -1.6552734375,
+        "lag_days": 637,
+        "lag_date": "2009-09-20T00:00:00.000000000",
+        "attention": 0.0997314453125,
+        "contribution": 0.1650390625
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_nb_mean",
+        "value": 2.478515625,
+        "lag_days": 3,
+        "lag_date": "2011-06-16T00:00:00.000000000",
+        "attention": 0.056121826171875,
+        "contribution": 0.1390380859375
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.568359375,
+        "lag_days": 930,
+        "lag_date": "2008-12-01T00:00:00.000000000",
+        "attention": 0.034149169921875,
+        "contribution": 0.08770751953125
+      },
+      {
+        "group": "slow",
+        "feature": "AAT",
+        "value": 1.296875,
+        "lag_days": 1050,
+        "lag_date": "2008-08-03T00:00:00.000000000",
+        "attention": 0.04986572265625,
+        "contribution": 0.064697265625
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7945038080215454
+  },
+  {
+    "nid": 1650056,
+    "local_node": 56,
+    "time_index": 4125,
+    "date": "2011-08-17T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.232421875,
+        "lag_days": 600,
+        "lag_date": "2009-12-25T00:00:00.000000000",
+        "attention": 0.43896484375,
+        "contribution": 0.97998046875
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": -2.376953125,
+        "lag_days": 240,
+        "lag_date": "2010-12-20T00:00:00.000000000",
+        "attention": 0.1851806640625,
+        "contribution": 0.440185546875
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 2.22265625,
+        "lag_days": 1,
+        "lag_date": "2011-08-16T00:00:00.000000000",
+        "attention": 0.15380859375,
+        "contribution": 0.341796875
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_mean_7d",
+        "value": 2.421875,
+        "lag_days": 7,
+        "lag_date": "2011-08-10T00:00:00.000000000",
+        "attention": 0.12213134765625,
+        "contribution": 0.2958984375
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 2.859375,
+        "lag_days": 11,
+        "lag_date": "2011-08-06T00:00:00.000000000",
+        "attention": 0.07568359375,
+        "contribution": 0.2164306640625
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7943205237388611
+  },
+  {
+    "nid": 1646058,
+    "local_node": 58,
+    "time_index": 4115,
+    "date": "2011-08-07T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 2.859375,
+        "lag_days": 1,
+        "lag_date": "2011-08-06T00:00:00.000000000",
+        "attention": 0.462890625,
+        "contribution": 1.3232421875
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.232421875,
+        "lag_days": 600,
+        "lag_date": "2009-12-15T00:00:00.000000000",
+        "attention": 0.43896484375,
+        "contribution": 0.97998046875
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": -2.376953125,
+        "lag_days": 240,
+        "lag_date": "2010-12-10T00:00:00.000000000",
+        "attention": 0.1851806640625,
+        "contribution": 0.440185546875
+      },
+      {
+        "group": "med",
+        "feature": "NDVI_anom",
+        "value": -3.125,
+        "lag_days": 294,
+        "lag_date": "2010-10-17T00:00:00.000000000",
+        "attention": 0.064453125,
+        "contribution": 0.201416015625
+      },
+      {
+        "group": "med",
+        "feature": "SPEI3_anom",
+        "value": 1.6044921875,
+        "lag_days": 693,
+        "lag_date": "2009-09-13T00:00:00.000000000",
+        "attention": 0.10504150390625,
+        "contribution": 0.1685791015625
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7939553260803223
+  },
+  {
+    "nid": 1646076,
+    "local_node": 76,
+    "time_index": 4115,
+    "date": "2011-08-07T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 2.859375,
+        "lag_days": 1,
+        "lag_date": "2011-08-06T00:00:00.000000000",
+        "attention": 0.46630859375,
+        "contribution": 1.3330078125
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.232421875,
+        "lag_days": 600,
+        "lag_date": "2009-12-15T00:00:00.000000000",
+        "attention": 0.43896484375,
+        "contribution": 0.97998046875
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": -2.376953125,
+        "lag_days": 240,
+        "lag_date": "2010-12-10T00:00:00.000000000",
+        "attention": 0.1851806640625,
+        "contribution": 0.440185546875
+      },
+      {
+        "group": "med",
+        "feature": "SPEI3_anom",
+        "value": 1.6044921875,
+        "lag_days": 693,
+        "lag_date": "2009-09-13T00:00:00.000000000",
+        "attention": 0.10968017578125,
+        "contribution": 0.176025390625
+      },
+      {
+        "group": "med",
+        "feature": "SPEI3_anom",
+        "value": 2.16015625,
+        "lag_days": 644,
+        "lag_date": "2009-11-01T00:00:00.000000000",
+        "attention": 0.0733642578125,
+        "contribution": 0.158447265625
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.793444037437439
+  },
+  {
+    "nid": 1626043,
+    "local_node": 43,
+    "time_index": 4065,
+    "date": "2011-06-18T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 3.017578125,
+        "lag_days": 1,
+        "lag_date": "2011-06-17T00:00:00.000000000",
+        "attention": 0.55712890625,
+        "contribution": 1.681640625
+      },
+      {
+        "group": "med",
+        "feature": "AAT_anom",
+        "value": -1.666015625,
+        "lag_days": 637,
+        "lag_date": "2009-09-19T00:00:00.000000000",
+        "attention": 0.1044921875,
+        "contribution": 0.174072265625
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.568359375,
+        "lag_days": 930,
+        "lag_date": "2008-11-30T00:00:00.000000000",
+        "attention": 0.033843994140625,
+        "contribution": 0.0869140625
+      },
+      {
+        "group": "slow",
+        "feature": "AAT",
+        "value": 1.3251953125,
+        "lag_days": 1050,
+        "lag_date": "2008-08-02T00:00:00.000000000",
+        "attention": 0.0521240234375,
+        "contribution": 0.069091796875
+      },
+      {
+        "group": "med",
+        "feature": "NDVI_anom",
+        "value": -1.6552734375,
+        "lag_days": 364,
+        "lag_date": "2010-06-19T00:00:00.000000000",
+        "attention": 0.03741455078125,
+        "contribution": 0.061920166015625
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7933332920074463
+  },
+  {
+    "nid": 1646077,
+    "local_node": 77,
+    "time_index": 4115,
+    "date": "2011-08-07T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 2.859375,
+        "lag_days": 1,
+        "lag_date": "2011-08-06T00:00:00.000000000",
+        "attention": 0.462890625,
+        "contribution": 1.3232421875
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.232421875,
+        "lag_days": 600,
+        "lag_date": "2009-12-15T00:00:00.000000000",
+        "attention": 0.43896484375,
+        "contribution": 0.97998046875
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": -2.376953125,
+        "lag_days": 240,
+        "lag_date": "2010-12-10T00:00:00.000000000",
+        "attention": 0.1851806640625,
+        "contribution": 0.440185546875
+      },
+      {
+        "group": "med",
+        "feature": "SPEI3_anom",
+        "value": 1.6044921875,
+        "lag_days": 693,
+        "lag_date": "2009-09-13T00:00:00.000000000",
+        "attention": 0.11334228515625,
+        "contribution": 0.181884765625
+      },
+      {
+        "group": "med",
+        "feature": "SPEI3_anom",
+        "value": 2.16015625,
+        "lag_days": 644,
+        "lag_date": "2009-11-01T00:00:00.000000000",
+        "attention": 0.0758056640625,
+        "contribution": 0.1636962890625
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7933224439620972
+  },
+  {
+    "nid": 1796065,
+    "local_node": 65,
+    "time_index": 4490,
+    "date": "2012-08-16T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed_mean_7d",
+        "value": 2.666015625,
+        "lag_days": 9,
+        "lag_date": "2012-08-07T00:00:00.000000000",
+        "attention": 0.1318359375,
+        "contribution": 0.3515625
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 3.34765625,
+        "lag_days": 990,
+        "lag_date": "2009-11-30T00:00:00.000000000",
+        "attention": 0.088623046875,
+        "contribution": 0.296630859375
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_mean_7d",
+        "value": 2.2734375,
+        "lag_days": 7,
+        "lag_date": "2012-08-09T00:00:00.000000000",
+        "attention": 0.1007080078125,
+        "contribution": 0.22900390625
+      },
+      {
+        "group": "med",
+        "feature": "SPEI3_anom",
+        "value": -1.9931640625,
+        "lag_days": 630,
+        "lag_date": "2010-11-25T00:00:00.000000000",
+        "attention": 0.07733154296875,
+        "contribution": 0.1541748046875
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 3.404296875,
+        "lag_days": 13,
+        "lag_date": "2012-08-03T00:00:00.000000000",
+        "attention": 0.039154052734375,
+        "contribution": 0.13330078125
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7930922508239746
+  },
+  {
+    "nid": 1626023,
+    "local_node": 23,
+    "time_index": 4065,
+    "date": "2011-06-18T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 3.017578125,
+        "lag_days": 1,
+        "lag_date": "2011-06-17T00:00:00.000000000",
+        "attention": 0.5458984375,
+        "contribution": 1.6474609375
+      },
+      {
+        "group": "med",
+        "feature": "AAT_anom",
+        "value": -1.60546875,
+        "lag_days": 637,
+        "lag_date": "2009-09-19T00:00:00.000000000",
+        "attention": 0.091064453125,
+        "contribution": 0.146240234375
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.568359375,
+        "lag_days": 930,
+        "lag_date": "2008-11-30T00:00:00.000000000",
+        "attention": 0.0338134765625,
+        "contribution": 0.08685302734375
+      },
+      {
+        "group": "slow",
+        "feature": "AAT",
+        "value": 1.3251953125,
+        "lag_days": 1050,
+        "lag_date": "2008-08-02T00:00:00.000000000",
+        "attention": 0.05206298828125,
+        "contribution": 0.0689697265625
+      },
+      {
+        "group": "med",
+        "feature": "AAT_anom",
+        "value": 1.5576171875,
+        "lag_days": 280,
+        "lag_date": "2010-09-11T00:00:00.000000000",
+        "attention": 0.03509521484375,
+        "contribution": 0.054656982421875
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7929984331130981
+  },
+  {
+    "nid": 1626042,
+    "local_node": 42,
+    "time_index": 4065,
+    "date": "2011-06-18T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 3.017578125,
+        "lag_days": 1,
+        "lag_date": "2011-06-17T00:00:00.000000000",
+        "attention": 0.55322265625,
+        "contribution": 1.6689453125
+      },
+      {
+        "group": "med",
+        "feature": "AAT_anom",
+        "value": -1.666015625,
+        "lag_days": 637,
+        "lag_date": "2009-09-19T00:00:00.000000000",
+        "attention": 0.10003662109375,
+        "contribution": 0.1666259765625
+      },
+      {
+        "group": "med",
+        "feature": "NDVI_anom",
+        "value": -1.9921875,
+        "lag_days": 364,
+        "lag_date": "2010-06-19T00:00:00.000000000",
+        "attention": 0.08038330078125,
+        "contribution": 0.16015625
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.568359375,
+        "lag_days": 930,
+        "lag_date": "2008-11-30T00:00:00.000000000",
+        "attention": 0.033843994140625,
+        "contribution": 0.0869140625
+      },
+      {
+        "group": "slow",
+        "feature": "AAT",
+        "value": 1.3251953125,
+        "lag_days": 1050,
+        "lag_date": "2008-08-02T00:00:00.000000000",
+        "attention": 0.0521240234375,
+        "contribution": 0.069091796875
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7929264903068542
+  },
+  {
+    "nid": 1796045,
+    "local_node": 45,
+    "time_index": 4490,
+    "date": "2012-08-16T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed_mean_7d",
+        "value": 2.666015625,
+        "lag_days": 9,
+        "lag_date": "2012-08-07T00:00:00.000000000",
+        "attention": 0.1307373046875,
+        "contribution": 0.3486328125
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 3.34765625,
+        "lag_days": 990,
+        "lag_date": "2009-11-30T00:00:00.000000000",
+        "attention": 0.088623046875,
+        "contribution": 0.296630859375
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_mean_7d",
+        "value": 2.2734375,
+        "lag_days": 7,
+        "lag_date": "2012-08-09T00:00:00.000000000",
+        "attention": 0.099853515625,
+        "contribution": 0.22705078125
+      },
+      {
+        "group": "med",
+        "feature": "SPEI3_anom",
+        "value": -1.9931640625,
+        "lag_days": 630,
+        "lag_date": "2010-11-25T00:00:00.000000000",
+        "attention": 0.0760498046875,
+        "contribution": 0.151611328125
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 3.404296875,
+        "lag_days": 13,
+        "lag_date": "2012-08-03T00:00:00.000000000",
+        "attention": 0.038787841796875,
+        "contribution": 0.132080078125
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7926052212715149
+  },
+  {
+    "nid": 1795547,
+    "local_node": 347,
+    "time_index": 4488,
+    "date": "2012-08-14T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 3.271484375,
+        "lag_days": 11,
+        "lag_date": "2012-08-03T00:00:00.000000000",
+        "attention": 0.11346435546875,
+        "contribution": 0.37109375
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_mean_7d",
+        "value": 2.533203125,
+        "lag_days": 7,
+        "lag_date": "2012-08-07T00:00:00.000000000",
+        "attention": 0.1260986328125,
+        "contribution": 0.3193359375
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_max_3d",
+        "value": 3.044921875,
+        "lag_days": 8,
+        "lag_date": "2012-08-06T00:00:00.000000000",
+        "attention": 0.099365234375,
+        "contribution": 0.302490234375
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 3.34765625,
+        "lag_days": 990,
+        "lag_date": "2009-11-28T00:00:00.000000000",
+        "attention": 0.0882568359375,
+        "contribution": 0.29541015625
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 3.359375,
+        "lag_days": 10,
+        "lag_date": "2012-08-04T00:00:00.000000000",
+        "attention": 0.0712890625,
+        "contribution": 0.239501953125
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7910905480384827
+  },
+  {
+    "nid": 1795549,
+    "local_node": 349,
+    "time_index": 4488,
+    "date": "2012-08-14T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 3.271484375,
+        "lag_days": 11,
+        "lag_date": "2012-08-03T00:00:00.000000000",
+        "attention": 0.112548828125,
+        "contribution": 0.3681640625
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_mean_7d",
+        "value": 2.533203125,
+        "lag_days": 7,
+        "lag_date": "2012-08-07T00:00:00.000000000",
+        "attention": 0.1251220703125,
+        "contribution": 0.31689453125
+      },
+      {
+        "group": "med",
+        "feature": "NDVI_anom",
+        "value": 2.23828125,
+        "lag_days": 385,
+        "lag_date": "2011-07-26T00:00:00.000000000",
+        "attention": 0.1405029296875,
+        "contribution": 0.314453125
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_max_3d",
+        "value": 3.044921875,
+        "lag_days": 8,
+        "lag_date": "2012-08-06T00:00:00.000000000",
+        "attention": 0.09857177734375,
+        "contribution": 0.300048828125
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 3.34765625,
+        "lag_days": 990,
+        "lag_date": "2009-11-28T00:00:00.000000000",
+        "attention": 0.0882568359375,
+        "contribution": 0.29541015625
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7895458340644836
+  },
+  {
+    "nid": 1770079,
+    "local_node": 79,
+    "time_index": 4425,
+    "date": "2012-06-12T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "med",
+        "feature": "NDVI_anom",
+        "value": -2.498046875,
+        "lag_days": 609,
+        "lag_date": "2010-10-12T00:00:00.000000000",
+        "attention": 0.4716796875,
+        "contribution": 1.1787109375
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_mean_7d",
+        "value": 2.80859375,
+        "lag_days": 7,
+        "lag_date": "2012-06-05T00:00:00.000000000",
+        "attention": 0.1922607421875,
+        "contribution": 0.5400390625
+      },
+      {
+        "group": "med",
+        "feature": "NDVI_anom",
+        "value": 3.19140625,
+        "lag_days": 406,
+        "lag_date": "2011-05-03T00:00:00.000000000",
+        "attention": 0.1048583984375,
+        "contribution": 0.334716796875
+      },
+      {
+        "group": "fast",
+        "feature": "wind_speed_max_3d",
+        "value": 3.12109375,
+        "lag_days": 8,
+        "lag_date": "2012-06-04T00:00:00.000000000",
+        "attention": 0.10211181640625,
+        "contribution": 0.318603515625
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.0390625,
+        "lag_days": 210,
+        "lag_date": "2011-11-15T00:00:00.000000000",
+        "attention": 0.0748291015625,
+        "contribution": 0.152587890625
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7894059419631958
+  },
+  {
+    "nid": 1766534,
+    "local_node": 134,
+    "time_index": 4416,
+    "date": "2012-06-03T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 2.90625,
+        "lag_days": 1,
+        "lag_date": "2012-06-02T00:00:00.000000000",
+        "attention": 0.470947265625,
+        "contribution": 1.369140625
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.0390625,
+        "lag_days": 210,
+        "lag_date": "2011-11-06T00:00:00.000000000",
+        "attention": 0.0762939453125,
+        "contribution": 0.155517578125
+      },
+      {
+        "group": "med",
+        "feature": "SPEI3_anom",
+        "value": -1.8525390625,
+        "lag_days": 490,
+        "lag_date": "2011-01-30T00:00:00.000000000",
+        "attention": 0.07647705078125,
+        "contribution": 0.1417236328125
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.232421875,
+        "lag_days": 900,
+        "lag_date": "2009-12-16T00:00:00.000000000",
+        "attention": 0.045654296875,
+        "contribution": 0.1019287109375
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.642578125,
+        "lag_days": 930,
+        "lag_date": "2009-11-16T00:00:00.000000000",
+        "attention": 0.0318603515625,
+        "contribution": 0.08416748046875
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7888038754463196
+  },
+  {
+    "nid": 1767179,
+    "local_node": 379,
+    "time_index": 4417,
+    "date": "2012-06-04T00:00:00.000000000",
+    "top_features": [
+      {
+        "group": "fast",
+        "feature": "wind_speed",
+        "value": 3.2890625,
+        "lag_days": 1,
+        "lag_date": "2012-06-03T00:00:00.000000000",
+        "attention": 0.62744140625,
+        "contribution": 2.064453125
+      },
+      {
+        "group": "med",
+        "feature": "NDVI_anom",
+        "value": 2.720703125,
+        "lag_days": 651,
+        "lag_date": "2010-08-23T00:00:00.000000000",
+        "attention": 0.212158203125,
+        "contribution": 0.5771484375
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.0390625,
+        "lag_days": 210,
+        "lag_date": "2011-11-07T00:00:00.000000000",
+        "attention": 0.07525634765625,
+        "contribution": 0.1534423828125
+      },
+      {
+        "group": "med",
+        "feature": "SPEI3_anom",
+        "value": -1.8525390625,
+        "lag_days": 490,
+        "lag_date": "2011-01-31T00:00:00.000000000",
+        "attention": 0.059844970703125,
+        "contribution": 0.11083984375
+      },
+      {
+        "group": "slow",
+        "feature": "SPEI3",
+        "value": 2.232421875,
+        "lag_days": 900,
+        "lag_date": "2009-12-17T00:00:00.000000000",
+        "attention": 0.0450439453125,
+        "contribution": 0.1005859375
+      }
+    ],
+    "label": 1.0,
+    "prob": 0.7883433103561401
+  }
+]
